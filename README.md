@@ -17,3 +17,16 @@ check!
 ![3](https://raw.githubusercontent.com/SJHNJU/Grid-World/master/routes/route3.png)
 
 **Check! it is fun when it comes to challenge how we look at the things**
+
+
+### method:use value iteration in reinforcement learning
+```
+Repeat:
+expectation(a) = sum(Ps,a(s_) * V(s_) for s_ in S_) ----S_ is the probable next state when taking action a in state s
+V(S) := R(S) + max( gamma * expectation(a) for a in A) --- A is the available actions in state S
+and:
+V(S) will be close to V*(S) --V(S) -> V*(S)
+
+find best policy:
+optimal policy equation = argmax(expectation(a) for a in A)
+```
