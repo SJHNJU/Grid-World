@@ -16,4 +16,4 @@ check!
 * and if P={0.1, 0.01, 0.89}, route is: \
 ![3](https://raw.githubusercontent.com/SJHNJU/Grid-World/master/routes/route3.png)
 
-**Check! it is fun challenge how we look at the things**
+**Check! it is fun when it comes to challenge how we look at the things**
